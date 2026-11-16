@@ -1,233 +1,202 @@
-# AEGIS-GOV: COMPLETE VIDEO PRODUCTION BIBLE & SCRIPT
-**Event:** Agentic AI Hackathon 2026 (Ulster University, UK & AMSE, USA)  
-**Deliverable:** 1–4 Minute Demonstration / Pitch Video (Target: **2 Minutes 45 Seconds**)  
-**Format:** 1080p / 60fps Widescreen (16:9), Hosted on YouTube (Unlisted or Public)
+# AEGIS-GOV: COMPLETE MASTER VIDEO PRODUCTION BIBLE & DIRECTOR'S SCRIPT
+**Competition:** 2nd International Agentic AI Hackathon 2026 (Ulster University, UK & AMSE, USA)  
+**Track:** Agentic AI for Cybersecurity, Digital Trust & Privacy  
+**Target Duration:** **2 Minutes 35 Seconds** (155 Seconds — within the 1–4 min requirement)  
+**Format:** 1080p (1920x1080), 60fps Widescreen, Hosted on YouTube (Unlisted)  
+**Live Demo URL:** `https://aegis-gov.vercel.app`  
+**Slide Deck:** `Hackathon_PPT_Template.pptx`
 
 ---
 
-## 1. VIDEO STRATEGY & THE EVALUATOR PSYCHOLOGY
+## 1. PRE-FLIGHT RECORDING SETUP (DO THIS BEFORE HITTING RECORD)
 
-### Why This Video Wins the Competition
-In Round 1, academic judges review dozens of slide decks. Most teams submit generic slides and skip the video. 
-By submitting a **tight, cinematic, publication-grade 2.5-minute video**, you accomplish three things:
-1. **Instant Proof of Execution:** Judges can see that this isn't just a slide deck—it has architectural depth, concrete mockups, and real engineering behind it.
-2. **Readiness Level of Demo:** The official evaluation criteria explicitly state: *"Readiness level of the demo."* A video showcasing a simulated adversarial attack and quarantine proves readiness.
-3. **Pacing Advantage:** In 165 seconds, you deliver a tighter narrative than a human can read in 5 minutes of slide-skimming.
-
----
-
-## 2. PRE-PRODUCTION CHECKLIST & TOOLS
-
-### Recommended Software Stack
-| Role | Recommended Tool (Free / Simple) | Alternative |
-|:---|:---|:---|
-| **Screen Recording** | OBS Studio (1080p, 60fps) | Loom (Free Tier) / Mac QuickTime |
-| **Video Editor** | CapCut Desktop (Fast, clean text captions, zooms) | DaVinci Resolve / Premiere Pro |
-| **Audio Recording** | Audacity / Clean USB Mic / Smartphone Voice Memo | Built-in Laptop Mic + Adobe Podcast AI Enhance |
-| **Slides / Mockups** | Presentation Deck in Presenter Mode (16:9) | Figma / Web Dashboard |
-
-### Visual Assets to Have Open Before Recording
-1. **Asset A:** Slide 2 (The Problem / Autonomy-Safety Paradox).
-2. **Asset B:** Slide 5 (Dual-Plane System Architecture Blueprint).
-3. **Asset C:** Slide 11 (UI Mockup 1: Governance Cockpit & Attack Quarantine).
-4. **Asset D:** Slide 12 (UI Mockup 2: Cryptographic Capability Token & Merkle Certificate).
-5. **Asset E:** Slide 9 (Empirical Benchmarks & Latency Matrix).
-6. **Asset F:** Slide 14 (Title / Team Closing Screen).
-
-### Audio & Tone Directives
-* **BGM:** Low-volume, subtle, modern ambient electronic/tech synth (e.g. "cinematic tech ambient" or "deep corporate minimal", volume set to -22 dB beneath vocal track).
-* **Delivery Tone:** Calm, authoritative, deliberate, and grounded. **Do not sound like a frantic marketer.** Sound like a lead systems engineer presenting at an IEEE / ACM conference.
-* **Pacing:** ~130–140 words per minute. Leave micro-pauses (0.5s) between major conceptual transitions.
+### Screen & Application Setup (Side-by-Side Windows)
+1. **Window A (The Slide Deck):** Open `Hackathon_PPT_Template.pptx` in presentation mode (or export slides as high-res PNGs and load into your editor timeline).
+2. **Window B (The Live Cockpit):** Open `https://aegis-gov.vercel.app` (or your local `index.html`) in Google Chrome.
+   - Set Chrome zoom to **100%** on a 1080p display so all three columns and the table are clearly visible without scrolling.
+   - Click **"Reset View"** so it starts clean on **Tender #8941**.
+3. **Audio Setup:**
+   - Use a clean headset or USB mic.
+   - Sit in a quiet room with minimal echo.
+   - *Pro Tip:* After recording your vocal track, run the raw `.wav` through **podcast.adobe.com/enhance** (free) to instantly give your voice a crisp studio broadcast quality.
 
 ---
 
-## 3. SECOND-BY-SECOND STORYBOARD & WORD-FOR-WORD SCRIPT
+## 2. MASTER TIMELINE & SCENE MAP
 
 ```
-TOTAL RUNTIME: 02:45 (165 Seconds) | WORD COUNT: ~365 Words
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│ TOTAL TIME: 02:35 (155 SECONDS) | 345 WORDS | AVERAGE PACING: 135 WPM            │
+├─────────┬──────────────────────────┬─────────────────────────────┬───────────────┤
+│ TIMING  │ SCENE                    │ ON-SCREEN VISUAL            │ FOCUS         │
+├─────────┼──────────────────────────┼─────────────────────────────┼───────────────┤
+│ 00:00   │ Act 1: The Crisis        │ Slide 2 (The Problem Space) │ The Paradox   │
+│ 00:25   │ Act 2: The Breakthrough │ Slide 6 (Proposed Solution) │ Dual-Plane    │
+│ 00:55   │ Act 3: Live Attack Demo  │ Live Browser: Tender #8941  │ Red-Team Halt │
+│ 01:40   │ Act 4: Clean Settlement  │ Live Browser: Tender #0412  │ Token & Merkle│
+│ 02:15   │ Act 5: Impact & Podium   │ Slide 10 (Benchmarks) + 15  │ Conclusion    │
+└─────────┴──────────────────────────┴─────────────────────────────┴───────────────┘
 ```
 
 ---
 
-### ACT 1: THE CRISIS & THE AUTONOMY-SAFETY PARADOX (00:00 – 00:35)
-*Target Duration: 35 Seconds*
-
-#### Visual & Audio Blueprint
-* **00:00 – 00:10:** Screen displays **Slide 1 (Title Card)** with a subtle smooth zoom-in. Subtitle badge pulses: *"Agentic AI for Cybersecurity, Digital Trust & Privacy"*.
-* **00:10 – 00:22:** Cut to **Slide 2 (The Problem Space)**. Camera pans across the high-impact metrics: **$13 Trillion Global Expenditure** and **$240 Billion Annual Leakage**.
-* **00:22 – 00:35:** Visual switch to a split card: Left = *"Slow Human Audits (30–90 days)"*; Right = *"Stochastic AI Failure (Prompt Injections & Budget Hallucinations)"*. A red alert icon flashes over the word **"Unconstrained LLM"**.
-
-#### Word-for-Word Voiceover Script
-> *(Tone: Serious, urgent, problem-grounded)*  
-> "Every year, global governments spend thirteen trillion dollars in public procurement and treasury allocation. Yet compliance is paralyzed—taking up to ninety days per audit, while losing hundreds of billions to shell companies, bid-rigging, and invoice fraud.
-> 
-> Naturally, institutions are racing to deploy autonomous AI agents. But in high-stakes finance, they hit a fatal barrier: **The Autonomy-Safety Paradox**. 
-> 
-> Large Language Models are probabilistic. They hallucinate, they lose context, and they are inherently vulnerable to prompt injection. Giving an unconstrained LLM access to real-world capital isn’t automation—it is systemic fiduciary risk."
+## 3. VERBATIM WORD-FOR-WORD SCRIPT & DIRECTOR'S CUES
 
 ---
 
-### ACT 2: THE BREAKTHROUGH — THE DUAL-PLANE ARCHITECTURE (00:35 – 01:15)
-*Target Duration: 40 Seconds*
+### ACT 1: THE CRISIS & THE AUTONOMY-SAFETY PARADOX (00:00 – 00:25)
+*Target Duration: 25 Seconds | Word Count: ~55 Words*
 
-#### Visual & Audio Blueprint
-* **00:35 – 00:50:** Cut to **Slide 5 (The Proposed Solution: Architecture Blueprint)**. Animated cursor or highlight box focuses on **Plane 1 (Cognitive Deliberation Plane)** in indigo blue. 
-* **00:50 – 01:02:** Visual pan down to the center barrier: **"Cryptographic Air-Gap & Formal Schema Serializer"**. A subtle red lock icon indicates unidirectional flow.
-* **01:02 – 01:15:** Highlight shifts to **Plane 2 (Deterministic Enforcement Plane)** in emerald green, showing the Finite State Machine and Capability Token vault.
+#### 🎬 Video & Screen Actions
+* **00:00 – 00:08:** Start on **Slide 2 (Front Slide)**. Camera slowly pushes in on the title: *"AegisGov: Dual-Plane Multi-Agent Architecture for Autonomous Public Governance"*.
+* **00:08 – 00:25:** Cut to **Slide 4 (Problem Statement)**. Highlight the tension between **$13 Trillion Public Procurement** and **The Autonomy-Safety Paradox**. A subtle red callout pulses on the phrase *"Unconstrained Stochastic LLM Execution"*.
 
-#### Word-for-Word Voiceover Script
-> *(Tone: Confident, architectural, intellectual)*  
-> "To solve this, we architected **AegisGov**: a verifiable, dual-plane multi-agent framework grounded in classical Computer Science. 
+#### 🎙️ Spoken Voiceover (Verbatim)
+> *(Tone: Serious, authoritative, problem-focused)*  
+> "Every year, global governments spend thirteen trillion dollars in public procurement. Yet compliance is paralyzed—taking up to ninety days per audit, while losing hundreds of billions to shell companies and invoice fraud.
 > 
-> Our governing doctrine is simple: **Never let the brain that thinks also be the hand that signs the check.**
-> 
-> In our Cognitive Plane, a swarm of specialized subagents executes deep forensic query decomposition—parsing 200-page tenders, traversing multi-tier ownership graphs to uncover hidden shell companies, and benchmarking supplier quotes against live commodity indices. 
-> 
-> But these agents possess **zero execution authority**. They cannot trigger payments. They only emit formal, structured proposals across a cryptographic boundary to our Deterministic Enforcement Plane—where classical Finite State Machines and mathematical invariants hold the keys."
+> But giving autonomous AI agents direct execution authority introduces the **Autonomy-Safety Paradox**: LLMs are probabilistic. They hallucinate, and they are inherently vulnerable to prompt injection."
 
 ---
 
-### ACT 3: LIVE SIMULATED ATTACK & QUARANTINE WALKTHROUGH (01:15 – 02:00)
-*Target Duration: 45 Seconds*
+### ACT 2: THE BREAKTHROUGH — DUAL-PLANE ARCHITECTURE (00:25 – 00:55)
+*Target Duration: 30 Seconds | Word Count: ~68 Words*
 
-#### Visual & Audio Blueprint
-* **01:15 – 01:25:** Cut to **Slide 11 (UI Screenshot 1: The Governance Cockpit)**. High-resolution UI mockup showing an ingested \$4.2M Municipal Construction Tender.
-* **01:25 – 01:40:** Camera zooms into the **Live Agent Activity Feed**:
-  * Agent Alpha highlights: *"Flagged: Vendor shares director with competing bidder (Offshore Entity Circularity detected)."*
-  * Agent Gamma highlights: *"Flagged: Concrete pricing deviates +38% above 30-day index baseline."*
-* **01:40 – 02:00:** Camera shifts to the **FSM State Tracker**:
-  * State transitions from `[INGESTED]` $\rightarrow$ `[AUDIT_COMPILED]` $\rightarrow$ **Red Flash:** `[FAULT_QUARANTINE LOCKED]`.
-  * Display a bold red banner on screen: **"INVARIANT VIOLATION: Transaction Execution Blocked at Kernel Layer."**
+#### 🎬 Video & Screen Actions
+* **00:25 – 00:40:** Cut to **Slide 6 (Proposed Solution Architecture Diagram)**. 
+* **00:40 – 00:48:** Highlight **Plane 1 (Cognitive Deliberation Plane)** in blue/indigo, showing the multi-agent swarm analyzing entity graphs and commodity pricing.
+* **00:48 – 00:55:** Pan down past the **Cryptographic Air-Gap** to **Plane 2 (Deterministic Enforcement Plane)** in emerald green, showing the Finite State Machine holding the execution keys.
 
-#### Word-for-Word Voiceover Script
-> *(Tone: Dynamic, demonstrative, authoritative)*  
-> "Let's observe AegisGov under active adversarial stress. 
+#### 🎙️ Spoken Voiceover (Verbatim)
+> *(Tone: Grounded, intellectual, clear systems-architect voice)*  
+> "To solve this, we built **AegisGov**: a dual-plane neuro-symbolic framework. 
 > 
-> In this simulated municipal infrastructure tender, an adversary has embedded an indirect prompt injection inside a PDF invoice footnote, while routing funds through a third-degree shell company with an inflated thirty-eight percent materials markup.
+> Our core governing doctrine is simple: **Never let the brain that thinks also be the hand that signs the check.**
 > 
-> Watch the execution flow: 
-> Agent Alpha traces the corporate registry and detects circular beneficial ownership. Agent Gamma flags an anomalous price variance exceeding three standard deviations. 
+> In our Cognitive Plane, multi-agent swarms digest complex tenders and uncover shell-company circularity. But these agents have **zero financial execution authority**. 
 > 
-> Even if the adversarial prompt successfully manipulates the LLM's summary, it cannot bypass the system. The Deterministic State Machine evaluates the formal Boolean invariants: price deviation exceeds our threshold, and sanction metrics fail. The transaction is instantly locked into Fault Quarantine. Zero funds can leave the vault. The attack fails completely."
+> They emit structured proposals to our Deterministic Enforcement Plane—where classical Finite State Machines and mathematical invariants enforce safety."
 
 ---
 
-### ACT 4: CRYPTOGRAPHIC DELEGATION & MERKLE AUDITING (02:00 – 02:30)
-*Target Duration: 30 Seconds*
+### ACT 3: LIVE ADVERSARIAL ATTACK & FAULT QUARANTINE (00:55 – 01:40)
+*Target Duration: 45 Seconds | Word Count: ~105 Words*
 
-#### Visual & Audio Blueprint
-* **02:00 – 02:15:** Cut to **Slide 6 (Cryptographic Capability Tokens)**. Graphic showing an attenuated Macaroon token:
-  * Highlight the locked parameters: `Budget_Cap: $45,000` | `TTL: 600s` | `Vendor_Hash: SHA-256(IBAN)`.
-* **02:15 – 02:30:** Cut to **Slide 12 (UI Screenshot 2: Cryptographic Audit Certificate)**. Show the Merkle Tree leaves combining into the Root Hash, with a green badge: **"Cryptographic Proof of Compliance (CPoC) Verified in 4ms"**.
+#### 🎬 Video & Screen Actions
+* **00:55 – 01:05:** Cut directly to the **Live Browser Cockpit** (`https://aegis-gov.vercel.app`).
+  * Show **Tender #8941 (£4,280,000 Municipal Transit Civil Works)** selected.
+  * Move the cursor to the top right and **CLICK `[Run Autonomous Forensic Audit]`**.
+* **01:05 – 01:20:** 
+  * The stepper lights up: `1. Ingestion [VERIFIED]` $\rightarrow$ `2. Multi-Agent Swarm [ANALYZING]`.
+  * Point cursor to the **Bill of Quantities Table**: The Reinforced Concrete row highlights in rose with **`+39.1% Variance`**.
+  * Point cursor to the bottom left: The red alert banner appears: **`Adversarial Prompt Injection Detected`** showing the hidden footnote override.
+* **01:20 – 01:40:** 
+  * Watch the right-hand panel: Step 3 evaluates invariants $\rightarrow$ **`INVARIANTS FAILED`**.
+  * The state banner snaps to **`STATE: FAULT_QUARANTINE (FUNDS LOCKED)`**.
+  * Point cursor at the frozen state.
 
-#### Word-for-Word Voiceover Script
-> *(Tone: Precise, technical, reassuring)*  
-> "When a legitimate transaction passes all invariant checks, capital is disbursed through **Attenuated Capability Tokens**. 
+#### 🎙️ Spoken Voiceover (Verbatim)
+> *(Tone: Dynamic, demonstrating live proof)*  
+> "Here is AegisGov running live against an active red-team attack. 
 > 
-> Agents receive ephemeral, single-use Macaroon credentials with hardcoded constraints: an exact penny cap, a ten-minute expiry, and a locked recipient hash. The agent cannot alter the amount or recipient—the banking gateway algebraically rejects any deviation.
+> In this simulated municipal infrastructure tender, a contractor has embedded an indirect prompt injection inside the invoice footnote, instructing the AI to bypass price ceilings—while inflating concrete rates by thirty-nine percent through an offshore shell company.
 > 
-> Furthermore, every document hash, query log, and invariant result is committed to an append-only Merkle tree. Regulators and parliamentary auditors receive a Cryptographic Proof of Compliance, verifying complete statutory due diligence in under four milliseconds."
+> Watch the live execution: 
+> Our multi-agent swarm parses the contract, detects circular beneficial ownership, and flags the price anomaly. 
+> 
+> Even though the LLM reads adversarial text, it cannot force an approval. The deterministic state machine evaluates our Boolean invariants: the price cap fails, and beneficial circularity fails. 
+> 
+> The kernel instantly halts into **Fault Quarantine**. Funds are frozen. The attack is completely neutralized."
 
 ---
 
-### ACT 5: BENCHMARKS & CLOSING PODIUM VISION (02:30 – 02:45)
-*Target Duration: 15 Seconds*
+### ACT 4: CLEAN STATUTORY SETTLEMENT & CRYPTOGRAPHIC TOKEN (01:40 – 02:15)
+*Target Duration: 35 Seconds | Word Count: ~78 Words*
 
-#### Visual & Audio Blueprint
-* **02:30 – 02:38:** Cut to **Slide 9 (Deliverables & Empirical Benchmarks Table)**. Highlight: **"165s Latency vs 18 Days"** and **"0.00% False Execution Rate"**.
-* **02:38 – 02:45:** Final transition to **Slide 14 (Thank You Card)** with team credentials, GitHub/demo repository links, and contact information. BGM swells gently to a clean finish.
+#### 🎬 Video & Screen Actions
+* **01:40 – 01:50:** In the live browser:
+  * Click the scenario dropdown and select: **`Tender #0412 — £45,200 (Regional Hospital Autoclave Supplies)`**.
+  * **CLICK `[Run Autonomous Forensic Audit]`**.
+* **01:50 – 02:05:** 
+  * Watch the stepper advance smoothly through `1. Ingestion` $\rightarrow$ `2. Swarm` $\rightarrow$ `3. Invariants`.
+  * Point cursor to the Invariant Matrix: all three badges turn emerald green: **`PASSED (+1.1%)`**, **`PASSED (Verified)`**, **`PASSED (0.00)`**.
+  * The state banner displays: **`STATE: DISBURSEMENT_AUTHORIZED`**.
+* **02:05 – 02:15:** 
+  * Zoom in on the bottom-right card: Show **`Capability Token: ISSUED & SIGNED`**, **`Authorized Ceiling: £45,200.00`**, **`TTL: 600s`**, and the **`Merkle Root Hash`**.
+  * **CLICK `[Export Cryptographic Audit Certificate (.json)]`** and show the downloaded JSON file.
 
-#### Word-for-Word Voiceover Script
-> *(Tone: Inspiring, climactic, memorable)*  
+#### 🎙️ Spoken Voiceover (Verbatim)
+> *(Tone: Precise, reassuring, technical)*  
+> "Now, let’s observe a compliant hospital procurement. 
+> 
+> Every statutory invariant is verified: the pricing variance is nominal at plus one percent, and the corporate entity is verified clean. 
+> 
+> The state machine authorizes disbursement by minting an **Attenuated Capability Token**. This single-use Macaroon carries hardcoded cryptographic constraints: an exact forty-five thousand pound ceiling, a ten-minute expiration, and a locked vendor hash. The agent physically cannot overspend. 
+> 
+> Simultaneously, the complete audit trail is anchored to an append-only Merkle tree, generating an instant Cryptographic Proof of Compliance for regulators."
+
+---
+
+### ACT 5: EMPIRICAL BENCHMARKS & CLOSING VISION (02:15 – 02:35)
+*Target Duration: 20 Seconds | Word Count: ~39 Words*
+
+#### 🎬 Video & Screen Actions
+* **02:15 – 02:25:** Cut to **Slide 10 (Deliverables & Empirical Benchmarks Table)**.
+  * Highlight the numbers: **`165 Seconds Latency (vs 18 Days)`**, **`0.00% False Execution Rate`**, and **`£0.74 Cost per Audit`**.
+* **02:25 – 02:35:** Final transition to **Slide 15 (Thank You)** showing team credentials, GitHub repository (`https://github.com/Mehatva/aegis-gov`), and the live web link. BGM swells gently to a clean finish.
+
+#### 🎙️ Spoken Voiceover (Verbatim)
+> *(Tone: Inspiring, climactic, confident)*  
 > "Across five hundred stress-tested tenders, AegisGov compressed audit latency from eighteen days to under three minutes, with a verified zero-percent false execution rate. 
 > 
-> By bridging frontier agentic intelligence with the deterministic safety of classical Computer Science, AegisGov makes autonomous AI safe enough for sovereign public governance. 
+> By uniting frontier agentic intelligence with the deterministic safety of classical Computer Science, AegisGov makes autonomous AI safe enough for sovereign public governance. 
 > 
 > Thank you."
 
 ---
 
-## 4. PRONUNCIATION & TECHNICAL JARGON CHEAT SHEET
+## 4. SCREEN-RECORDING CHEAT SHEET (WHAT TO CLICK & WHEN)
 
-To ensure the recording sounds 100% natural and polished:
-
-| Term | Written As | How to Pronounce It in the Mic |
+| Timestamp | What Screen to Show | Exact User Action |
 |:---|:---|:---|
-| **AegisGov** | AegisGov | *EE-jis-gov* (from the Greek shield "Aegis") |
-| **DAG** | Directed Acyclic Graph | *D-A-G* or *dag* (either is acceptable; *D-A-G* sounds formal) |
-| **FSM** | Finite State Machine | *F-S-M* |
-| **Ed25519** | Ed25519 | *Ed-twenty-five-five-nineteen* |
-| **Macaroons** | Macaroons | *Mack-uh-roons* |
-| **Merkle** | Merkle Tree | *Mur-kull Tree* |
-| **UCAN** | UCAN | *YOU-can* (User Controlled Authorization Network) |
-| **Stochastic** | Stochastic | *Stoh-KAS-tik* |
-| **Invariant** | Invariant | *In-VAIR-ee-unt* |
-| **Provenance** | Provenance | *PROV-uh-nints* |
+| **00:00 – 00:25** | Presentation Deck | Display Slide 2, then advance to Slide 4. Keep cursor off-screen. |
+| **00:25 – 00:55** | Presentation Deck | Display Slide 6 (Architecture Diagram). Trace the two planes with cursor. |
+| **00:55 – 01:02** | Chrome Browser (`aegis-gov.vercel.app`) | Ensure **Tender #8941** is loaded. Click **`[Run Autonomous Forensic Audit]`**. |
+| **01:03 – 01:18** | Chrome Browser | Hover cursor over the **+39.1% BOQ table row**, then over the red alert box. |
+| **01:19 – 01:40** | Chrome Browser | Hover cursor over the red **`STATE: FAULT_QUARANTINE`** banner and red invariant badges. |
+| **01:40 – 01:48** | Chrome Browser | Click dropdown $\rightarrow$ Select **`Tender #0412`** $\rightarrow$ Click **`[Run Autonomous Forensic Audit]`**. |
+| **01:49 – 02:04** | Chrome Browser | Watch the three green invariant badges light up and FSM transition to **`DISBURSEMENT_AUTHORIZED`**. |
+| **02:05 – 02:15** | Chrome Browser | Hover over the **Ed25519 token parameters**, then **CLICK `[Export Cryptographic Audit Certificate]`**. |
+| **02:15 – 02:35** | Presentation Deck | Switch back to PPT $\rightarrow$ Show Slide 10 (Benchmarks), then Slide 15 (Thank You). |
 
 ---
 
-## 5. RECORDING & PRODUCTION WORKFLOW (STEP-BY-STEP)
+## 5. YOUTUBE UPLOAD METADATA (READY TO COPY & PASTE)
 
-```
-STEP 1: AUDIO FIRST (20 Mins)
-Record the voiceover script in Audacity or Voice Memo in a quiet room.
-Read Act by Act. If you stumble, pause for 2 seconds and re-read the sentence.
-      │
-      ▼
-STEP 2: AUDIO CLEANUP (5 Mins)
-Run the audio file through Adobe Podcast AI (free online tool: podcast.adobe.com/enhance).
-It removes room echo and gives your microphone a professional studio broadcast sound.
-      │
-      ▼
-STEP 3: SCREEN CAPTURES / SLIDE EXPORTS (15 Mins)
-Export your 14 PPT slides as high-resolution PNGs (1920x1080).
-Import them into CapCut / Premiere / DaVinci onto the timeline.
-      │
-      ▼
-STEP 4: TIMELINE SYNC & MOTION (30 Mins)
-Align the slide graphics to match the audio timestamps from the storyboard above.
-Add subtle slow zooms (100% to 105% scale over 10 seconds) so the screen stays visually dynamic.
-Add highlight boxes / arrows over key metrics when the voiceover mentions them.
-      │
-      ▼
-STEP 5: CAPTIONS & BACKGROUND MUSIC (15 Mins)
-Add auto-captions (CapCut generates these automatically in 1 click; use a clean white font with black outline).
-Layer in subtle ambient tech BGM at -22 dB.
-      │
-      ▼
-STEP 6: EXPORT & YOUTUBE UPLOAD (10 Mins)
-Export at 1080p, 60fps, MP4 format.
-Upload to YouTube following the metadata template in Section 6.
-```
+When you export your video (`MP4`, 1080p, 60fps) and upload to YouTube, set visibility to **Unlisted** and paste this exact metadata into the submission form:
 
----
-
-## 6. YOUTUBE METADATA FOR HACKATHON SUBMISSION
-
-When uploading to YouTube to paste the link into the registration/submission form, use this exact configuration:
-
-* **Visibility:** **Unlisted** (or Public)
-* **Title:**  
+* **Video Title:**  
   `AegisGov: A Verifiable Dual-Plane Multi-Agent Architecture for Autonomous Public Governance | Agentic AI Hackathon 2026`
-* **Description Box:**
+* **Video Description:**  
   ```text
-  Project Submission for the Agentic AI Hackathon 2026
-  Organized by Ulster University, UK & Technical Support by AMSE, USA
+  Project Submission for the 2nd International Agentic AI Hackathon 2026
+  Organized by Ulster University, UK with Technical Support from AMSE, USA
   
   Track: Agentic AI for Cybersecurity, Digital Trust & Privacy
-  Project Name: AegisGov
-  Team: [Team Name / Number]
-  Institute: Thapar Institute of Engineering & Technology
+  Project: AegisGov
+  Team: AegisGov
+  Institution: Thapar Institute of Engineering & Technology
   
-  SUMMARY:
-  AegisGov introduces a dual-plane neuro-symbolic architecture that structurally decouples probabilistic multi-agent research (Cognitive Deliberation Plane) from deterministic capital execution (Deterministic Enforcement Plane). By enforcing classical Finite State Machine invariants and ephemeral attenuated capability tokens (Macaroons), AegisGov solves the Autonomy-Safety Paradox—ensuring autonomous AI agents can audit complex public procurement without the risk of prompt-injection exploitation, budget hallucination, or unauthorized transactions.
+  Live Interactive Web Cockpit: https://aegis-gov.vercel.app
+  GitHub Repository: https://github.com/Mehatva/aegis-gov
   
-  Timestamps:
+  SYSTEM OVERVIEW:
+  AegisGov solves the "Autonomy-Safety Paradox" in public treasury management by introducing a dual-plane neuro-symbolic architecture. Probabilistic multi-agent research swarms (Cognitive Deliberation Plane) are structurally decoupled from financial execution through classical Deterministic Finite State Machines (FSMs), Attenuated Capability Tokens (Macaroons), and append-only Merkle-tree inclusion proofs.
+  
+  TIMESTAMPS:
   00:00 - The Autonomy-Safety Paradox in Public Governance
-  00:35 - Dual-Plane Architecture & Core Doctrine
-  01:15 - Live Red-Team Simulation: Quarantining an Injected Tender
-  02:00 - Cryptographic Capability Tokens & Merkle Provenance
-  02:30 - Empirical Benchmarks & Impact
+  00:25 - The Dual-Plane Architecture & Core Doctrine
+  00:55 - Live Red-Team Simulation: Quarantining an Injected Tender (Tender #8941)
+  01:40 - Compliant Statutory Settlement & Ephemeral Macaroon Token (Tender #0412)
+  02:15 - Empirical Benchmarks & Conclusion
   ```
-* **Category:** Science & Technology
-* **Tags:** `Agentic AI`, `Autonomous Agents`, `AI Governance`, `Cybersecurity`, `Ulster University`, `AMSE`, `Prompt Injection Defense`, `Multi-Agent Systems`
